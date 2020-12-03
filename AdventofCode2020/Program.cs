@@ -1,5 +1,6 @@
 ﻿using System;
 using AdventofCode2020.Puzzles;
+using AdventofCode2020.Puzzles.Puzzle2;
 
 namespace AdventofCode2020
 {
@@ -14,6 +15,12 @@ namespace AdventofCode2020
             {
                 case "1":
                     Puzzle1.Run();
+                    break;
+                case "2a":
+                    Puzzle2.Run(1);
+                    break;
+                case "2b":
+                    Puzzle2.Run(2);
                     break;
                 default:
                     Console.WriteLine("Puzzle not found");

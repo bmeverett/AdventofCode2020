@@ -6,7 +6,7 @@ namespace AdventofCode2020.Puzzles
     {
         public static void Run()
         {
-            string txt = System.IO.File.ReadAllText("Puzzles\\Puzzle1Input.txt");
+            string txt = System.IO.File.ReadAllText("Puzzles\\Puzzle1\\Puzzle1Input.txt");
             string[] split = txt.Split( new []{
                 Environment.NewLine
             }, StringSplitOptions.None);

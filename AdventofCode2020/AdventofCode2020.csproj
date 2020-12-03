@@ -6,9 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Puzzles\Puzzle1Input.txt">
+    <None Update="Puzzles\Puzzle1\Puzzle1Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Puzzles\Puzzle2\Puzzle2Input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Puzzles\Puzzle1\" />
+    <Folder Include="Puzzles\Puzzle2\" />
+  </ItemGroup>
 </Project>
