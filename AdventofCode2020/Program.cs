@@ -22,6 +22,12 @@ namespace AdventofCode2020
                 case "2b":
                     Puzzle2.Run(2);
                     break;
+                case "4a":
+                    Puzzle4.Run(1);
+                    break;
+                case "4b":
+                    Puzzle4.Run(2);
+                    break;
                 default:
                     Console.WriteLine("Puzzle not found");
                     break;
