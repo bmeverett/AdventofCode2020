@@ -22,6 +22,9 @@ namespace AdventofCode2020
                 case "2b":
                     Puzzle2.Run(2);
                     break;
+                case "3a":
+                    Puzzle3.Run(1);
+                    break;
                 case "4a":
                     Puzzle4.Run(1);
                     break;

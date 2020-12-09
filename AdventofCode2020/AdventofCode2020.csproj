@@ -14,11 +14,15 @@
     </None>
     <None Update="Puzzles\Puzzle4\Puzzle4.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+                </None>
+    <None Update="Puzzles\Puzzle3\Puzzle3Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Puzzles\Puzzle1\" />
     <Folder Include="Puzzles\Puzzle2\" />
+    <Folder Include="Puzzles\Puzzle3\" />
   </ItemGroup>
 </Project>
